@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.isn-technology.com
         username: testgit@isn-technology.com
-        password: ${{ secrets.ftp_password }}
+        password: ${{ ftp_pass.FTP_PASS }}
